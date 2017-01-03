@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EC36D33D1DE8F2DB006182F9"
-               BuildableName = "CongressAPI.app"
-               BlueprintName = "CongressAPI"
-               ReferencedContainer = "container:CongressAPI.xcodeproj">
+               BlueprintIdentifier = "80C1DAD03DC46974F578A72665B94038"
+               BuildableName = "SwiftSpinner.framework"
+               BlueprintName = "SwiftSpinner"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,15 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EC36D33D1DE8F2DB006182F9"
-            BuildableName = "CongressAPI.app"
-            BlueprintName = "CongressAPI"
-            ReferencedContainer = "container:CongressAPI.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -51,23 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EC36D33D1DE8F2DB006182F9"
-            BuildableName = "CongressAPI.app"
-            BlueprintName = "CongressAPI"
-            ReferencedContainer = "container:CongressAPI.xcodeproj">
+            BlueprintIdentifier = "80C1DAD03DC46974F578A72665B94038"
+            BuildableName = "SwiftSpinner.framework"
+            BlueprintName = "SwiftSpinner"
+            ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
-      <EnvironmentVariables>
-         <EnvironmentVariable
-            key = "OS_ACTIVITY_MODE"
-            value = "disable"
-            isEnabled = "YES">
-         </EnvironmentVariable>
-      </EnvironmentVariables>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -77,16 +60,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EC36D33D1DE8F2DB006182F9"
-            BuildableName = "CongressAPI.app"
-            BlueprintName = "CongressAPI"
-            ReferencedContainer = "container:CongressAPI.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

@@ -1,0 +1,6 @@
+framework module Pods_CongressAPI {
+  umbrella header "Pods-CongressAPI-umbrella.h"
+
+  export *
+  module * { export * }
+}

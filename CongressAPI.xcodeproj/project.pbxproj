@@ -7,14 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10D978186EC182F5880565FF /* Pods_CongressAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C733573F4973656283E1E1BE /* Pods_CongressAPI.framework */; };
 		EC36D3421DE8F2DB006182F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC36D3411DE8F2DB006182F9 /* AppDelegate.swift */; };
 		EC36D3441DE8F2DB006182F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC36D3431DE8F2DB006182F9 /* ViewController.swift */; };
 		EC36D3471DE8F2DB006182F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC36D3451DE8F2DB006182F9 /* Main.storyboard */; };
 		EC36D3491DE8F2DB006182F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC36D3481DE8F2DB006182F9 /* Assets.xcassets */; };
 		EC36D34C1DE8F2DB006182F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC36D34A1DE8F2DB006182F9 /* LaunchScreen.storyboard */; };
+		EC6E250E1DEC10BF00C85300 /* StatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6E250D1DEC10BF00C85300 /* StatePickerViewController.swift */; };
+		EC6E25101DECBEB300C85300 /* LegislatorDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6E250F1DECBEB300C85300 /* LegislatorDetailTableViewCell.swift */; };
+		EC7D667D1DE901AF007E1BBF /* LegislatorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7D667C1DE901AF007E1BBF /* LegislatorTableViewCell.swift */; };
+		EC7D667F1DE917C3007E1BBF /* LegislatorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7D667E1DE917C3007E1BBF /* LegislatorTableViewController.swift */; };
+		EC7D66831DE91C32007E1BBF /* Legislator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7D66821DE91C32007E1BBF /* Legislator.swift */; };
+		EC7D66851DEA6A4A007E1BBF /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7D66841DEA6A4A007E1BBF /* ContainerViewController.swift */; };
+		EC7D66871DEA9AD7007E1BBF /* LeftMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7D66861DEA9AD7007E1BBF /* LeftMenuViewController.swift */; };
+		ECABB5D11DEE5A8200C9C4B1 /* BillActiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECABB5D01DEE5A8200C9C4B1 /* BillActiveViewController.swift */; };
+		ECABB5D31DEE5A9500C9C4B1 /* BillNewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECABB5D21DEE5A9500C9C4B1 /* BillNewViewController.swift */; };
+		ECABB5D51DEE5DB700C9C4B1 /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECABB5D41DEE5DB700C9C4B1 /* Bill.swift */; };
+		ECABB5D71DEFAA9C00C9C4B1 /* BillDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECABB5D61DEFAA9C00C9C4B1 /* BillDetailViewController.swift */; };
+		ECABB5D91DEFB5D400C9C4B1 /* BillTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECABB5D81DEFB5D400C9C4B1 /* BillTableViewCell.swift */; };
+		ECBA95881DECFB6B00C63387 /* LegisHouseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBA95871DECFB6B00C63387 /* LegisHouseTableViewController.swift */; };
+		ECBA958A1DECFB9900C63387 /* LegisSenateTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBA95891DECFB9900C63387 /* LegisSenateTableViewController.swift */; };
+		ECBA958C1DED128100C63387 /* LeftMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBA958B1DED128100C63387 /* LeftMenuTableViewCell.swift */; };
+		ECF57E6E1DEFFD090008467E /* CommHouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF57E6D1DEFFD090008467E /* CommHouseViewController.swift */; };
+		ECF57E701DEFFD1E0008467E /* CommSenateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF57E6F1DEFFD1E0008467E /* CommSenateViewController.swift */; };
+		ECF57E721DEFFD350008467E /* CommJointViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF57E711DEFFD350008467E /* CommJointViewController.swift */; };
+		ECF57E741DEFFD4A0008467E /* CommDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF57E731DEFFD4A0008467E /* CommDetailViewController.swift */; };
+		ECF57E761DEFFF480008467E /* CommitteeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF57E751DEFFF480008467E /* CommitteeTableViewCell.swift */; };
+		ECF57E781DF00D600008467E /* Committee.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF57E771DF00D600008467E /* Committee.swift */; };
+		ECF57E7A1DF02E630008467E /* FavoLegislatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF57E791DF02E630008467E /* FavoLegislatorViewController.swift */; };
+		ECF57E7C1DF02E7F0008467E /* FavoBillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF57E7B1DF02E7F0008467E /* FavoBillViewController.swift */; };
+		ECF57E7E1DF02E990008467E /* FavoCommitteeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF57E7D1DF02E990008467E /* FavoCommitteeViewController.swift */; };
+		ECF57E801DF02EBB0008467E /* FavoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF57E7F1DF02EBB0008467E /* FavoTableViewCell.swift */; };
+		ECF57E821DF052470008467E /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF57E811DF052470008467E /* AboutViewController.swift */; };
+		ECF57E851DF0D5A60008467E /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ECF57E831DF0D5A60008467E /* Model.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A0CE39519CDCB5873EB4FCC /* Pods-CongressAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CongressAPI.release.xcconfig"; path = "Pods/Target Support Files/Pods-CongressAPI/Pods-CongressAPI.release.xcconfig"; sourceTree = "<group>"; };
+		984101502AE4B089D6311B92 /* Pods-CongressAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CongressAPI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CongressAPI/Pods-CongressAPI.debug.xcconfig"; sourceTree = "<group>"; };
+		C733573F4973656283E1E1BE /* Pods_CongressAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CongressAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC36D33E1DE8F2DB006182F9 /* CongressAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CongressAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC36D3411DE8F2DB006182F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC36D3431DE8F2DB006182F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +53,33 @@
 		EC36D3481DE8F2DB006182F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC36D34B1DE8F2DB006182F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC36D34D1DE8F2DB006182F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC6E250D1DEC10BF00C85300 /* StatePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatePickerViewController.swift; sourceTree = "<group>"; };
+		EC6E250F1DECBEB300C85300 /* LegislatorDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegislatorDetailTableViewCell.swift; sourceTree = "<group>"; };
+		EC7D667C1DE901AF007E1BBF /* LegislatorTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegislatorTableViewCell.swift; sourceTree = "<group>"; };
+		EC7D667E1DE917C3007E1BBF /* LegislatorTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegislatorTableViewController.swift; sourceTree = "<group>"; };
+		EC7D66821DE91C32007E1BBF /* Legislator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Legislator.swift; sourceTree = "<group>"; };
+		EC7D66841DEA6A4A007E1BBF /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		EC7D66861DEA9AD7007E1BBF /* LeftMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftMenuViewController.swift; sourceTree = "<group>"; };
+		ECABB5D01DEE5A8200C9C4B1 /* BillActiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillActiveViewController.swift; sourceTree = "<group>"; };
+		ECABB5D21DEE5A9500C9C4B1 /* BillNewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillNewViewController.swift; sourceTree = "<group>"; };
+		ECABB5D41DEE5DB700C9C4B1 /* Bill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bill.swift; sourceTree = "<group>"; };
+		ECABB5D61DEFAA9C00C9C4B1 /* BillDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillDetailViewController.swift; sourceTree = "<group>"; };
+		ECABB5D81DEFB5D400C9C4B1 /* BillTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillTableViewCell.swift; sourceTree = "<group>"; };
+		ECBA95871DECFB6B00C63387 /* LegisHouseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegisHouseTableViewController.swift; sourceTree = "<group>"; };
+		ECBA95891DECFB9900C63387 /* LegisSenateTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegisSenateTableViewController.swift; sourceTree = "<group>"; };
+		ECBA958B1DED128100C63387 /* LeftMenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftMenuTableViewCell.swift; sourceTree = "<group>"; };
+		ECF57E6D1DEFFD090008467E /* CommHouseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommHouseViewController.swift; sourceTree = "<group>"; };
+		ECF57E6F1DEFFD1E0008467E /* CommSenateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommSenateViewController.swift; sourceTree = "<group>"; };
+		ECF57E711DEFFD350008467E /* CommJointViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommJointViewController.swift; sourceTree = "<group>"; };
+		ECF57E731DEFFD4A0008467E /* CommDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommDetailViewController.swift; sourceTree = "<group>"; };
+		ECF57E751DEFFF480008467E /* CommitteeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommitteeTableViewCell.swift; sourceTree = "<group>"; };
+		ECF57E771DF00D600008467E /* Committee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Committee.swift; sourceTree = "<group>"; };
+		ECF57E791DF02E630008467E /* FavoLegislatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoLegislatorViewController.swift; sourceTree = "<group>"; };
+		ECF57E7B1DF02E7F0008467E /* FavoBillViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoBillViewController.swift; sourceTree = "<group>"; };
+		ECF57E7D1DF02E990008467E /* FavoCommitteeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoCommitteeViewController.swift; sourceTree = "<group>"; };
+		ECF57E7F1DF02EBB0008467E /* FavoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoTableViewCell.swift; sourceTree = "<group>"; };
+		ECF57E811DF052470008467E /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		ECF57E841DF0D5A60008467E /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +87,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10D978186EC182F5880565FF /* Pods_CongressAPI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9FE58156AC87F05E87B5CA70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C733573F4973656283E1E1BE /* Pods_CongressAPI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EC36D3351DE8F2DB006182F9 = {
 			isa = PBXGroup;
 			children = (
 				EC36D3401DE8F2DB006182F9 /* CongressAPI */,
 				EC36D33F1DE8F2DB006182F9 /* Products */,
+				F4E8D1012B8C74FCA8A7C702 /* Pods */,
+				9FE58156AC87F05E87B5CA70 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +124,49 @@
 			isa = PBXGroup;
 			children = (
 				EC36D3411DE8F2DB006182F9 /* AppDelegate.swift */,
+				ECF57E831DF0D5A60008467E /* Model.xcdatamodeld */,
+				EC7D667C1DE901AF007E1BBF /* LegislatorTableViewCell.swift */,
+				EC6E250F1DECBEB300C85300 /* LegislatorDetailTableViewCell.swift */,
 				EC36D3431DE8F2DB006182F9 /* ViewController.swift */,
 				EC36D3451DE8F2DB006182F9 /* Main.storyboard */,
+				ECF57E811DF052470008467E /* AboutViewController.swift */,
+				ECF57E791DF02E630008467E /* FavoLegislatorViewController.swift */,
+				ECF57E7B1DF02E7F0008467E /* FavoBillViewController.swift */,
+				ECF57E7D1DF02E990008467E /* FavoCommitteeViewController.swift */,
+				ECF57E7F1DF02EBB0008467E /* FavoTableViewCell.swift */,
+				ECF57E751DEFFF480008467E /* CommitteeTableViewCell.swift */,
+				ECF57E6D1DEFFD090008467E /* CommHouseViewController.swift */,
+				ECF57E771DF00D600008467E /* Committee.swift */,
+				ECF57E6F1DEFFD1E0008467E /* CommSenateViewController.swift */,
+				ECF57E711DEFFD350008467E /* CommJointViewController.swift */,
+				ECF57E731DEFFD4A0008467E /* CommDetailViewController.swift */,
+				ECABB5D61DEFAA9C00C9C4B1 /* BillDetailViewController.swift */,
+				ECABB5D01DEE5A8200C9C4B1 /* BillActiveViewController.swift */,
+				ECABB5D81DEFB5D400C9C4B1 /* BillTableViewCell.swift */,
+				ECABB5D21DEE5A9500C9C4B1 /* BillNewViewController.swift */,
+				ECABB5D41DEE5DB700C9C4B1 /* Bill.swift */,
+				EC6E250D1DEC10BF00C85300 /* StatePickerViewController.swift */,
+				EC7D66861DEA9AD7007E1BBF /* LeftMenuViewController.swift */,
+				ECBA958B1DED128100C63387 /* LeftMenuTableViewCell.swift */,
+				EC7D66841DEA6A4A007E1BBF /* ContainerViewController.swift */,
+				EC7D667E1DE917C3007E1BBF /* LegislatorTableViewController.swift */,
+				ECBA95871DECFB6B00C63387 /* LegisHouseTableViewController.swift */,
+				ECBA95891DECFB9900C63387 /* LegisSenateTableViewController.swift */,
 				EC36D3481DE8F2DB006182F9 /* Assets.xcassets */,
 				EC36D34A1DE8F2DB006182F9 /* LaunchScreen.storyboard */,
 				EC36D34D1DE8F2DB006182F9 /* Info.plist */,
+				EC7D66821DE91C32007E1BBF /* Legislator.swift */,
 			);
 			path = CongressAPI;
+			sourceTree = "<group>";
+		};
+		F4E8D1012B8C74FCA8A7C702 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				984101502AE4B089D6311B92 /* Pods-CongressAPI.debug.xcconfig */,
+				8A0CE39519CDCB5873EB4FCC /* Pods-CongressAPI.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +176,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC36D3501DE8F2DB006182F9 /* Build configuration list for PBXNativeTarget "CongressAPI" */;
 			buildPhases = (
+				00AA76726857DB3A461DEAB5 /* [CP] Check Pods Manifest.lock */,
 				EC36D33A1DE8F2DB006182F9 /* Sources */,
 				EC36D33B1DE8F2DB006182F9 /* Frameworks */,
 				EC36D33C1DE8F2DB006182F9 /* Resources */,
+				DED953996A2D0EC7C355F13C /* [CP] Embed Pods Frameworks */,
+				2F8B53DAC0CBC4918EBA99B7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,13 +239,88 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		00AA76726857DB3A461DEAB5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2F8B53DAC0CBC4918EBA99B7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CongressAPI/Pods-CongressAPI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DED953996A2D0EC7C355F13C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CongressAPI/Pods-CongressAPI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EC36D33A1DE8F2DB006182F9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC6E250E1DEC10BF00C85300 /* StatePickerViewController.swift in Sources */,
+				ECABB5D51DEE5DB700C9C4B1 /* Bill.swift in Sources */,
+				ECBA958A1DECFB9900C63387 /* LegisSenateTableViewController.swift in Sources */,
+				ECABB5D91DEFB5D400C9C4B1 /* BillTableViewCell.swift in Sources */,
+				ECF57E7E1DF02E990008467E /* FavoCommitteeViewController.swift in Sources */,
+				EC7D66831DE91C32007E1BBF /* Legislator.swift in Sources */,
+				ECF57E761DEFFF480008467E /* CommitteeTableViewCell.swift in Sources */,
+				ECF57E7C1DF02E7F0008467E /* FavoBillViewController.swift in Sources */,
+				ECF57E801DF02EBB0008467E /* FavoTableViewCell.swift in Sources */,
+				ECF57E7A1DF02E630008467E /* FavoLegislatorViewController.swift in Sources */,
+				ECF57E821DF052470008467E /* AboutViewController.swift in Sources */,
+				ECF57E6E1DEFFD090008467E /* CommHouseViewController.swift in Sources */,
+				EC7D667D1DE901AF007E1BBF /* LegislatorTableViewCell.swift in Sources */,
 				EC36D3441DE8F2DB006182F9 /* ViewController.swift in Sources */,
+				ECBA958C1DED128100C63387 /* LeftMenuTableViewCell.swift in Sources */,
+				ECF57E741DEFFD4A0008467E /* CommDetailViewController.swift in Sources */,
+				ECABB5D11DEE5A8200C9C4B1 /* BillActiveViewController.swift in Sources */,
 				EC36D3421DE8F2DB006182F9 /* AppDelegate.swift in Sources */,
+				ECABB5D31DEE5A9500C9C4B1 /* BillNewViewController.swift in Sources */,
+				EC6E25101DECBEB300C85300 /* LegislatorDetailTableViewCell.swift in Sources */,
+				ECF57E701DEFFD1E0008467E /* CommSenateViewController.swift in Sources */,
+				EC7D66851DEA6A4A007E1BBF /* ContainerViewController.swift in Sources */,
+				EC7D66871DEA9AD7007E1BBF /* LeftMenuViewController.swift in Sources */,
+				ECBA95881DECFB6B00C63387 /* LegisHouseTableViewController.swift in Sources */,
+				ECF57E781DF00D600008467E /* Committee.swift in Sources */,
+				ECABB5D71DEFAA9C00C9C4B1 /* BillDetailViewController.swift in Sources */,
+				EC7D667F1DE917C3007E1BBF /* LegislatorTableViewController.swift in Sources */,
+				ECF57E721DEFFD350008467E /* CommJointViewController.swift in Sources */,
+				ECF57E851DF0D5A60008467E /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +349,7 @@
 		EC36D34E1DE8F2DB006182F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -181,6 +365,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -209,6 +394,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -216,6 +402,7 @@
 		EC36D34F1DE8F2DB006182F9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -231,6 +418,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -249,8 +437,10 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -258,25 +448,29 @@
 		};
 		EC36D3511DE8F2DB006182F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 984101502AE4B089D6311B92 /* Pods-CongressAPI.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CongressAPI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.ziqiang.CongressAPI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 3.0.1;
 			};
 			name = Debug;
 		};
 		EC36D3521DE8F2DB006182F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A0CE39519CDCB5873EB4FCC /* Pods-CongressAPI.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CongressAPI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.ziqiang.CongressAPI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 3.0.1;
 			};
 			name = Release;
 		};
@@ -299,8 +493,22 @@
 				EC36D3521DE8F2DB006182F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ECF57E831DF0D5A60008467E /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ECF57E841DF0D5A60008467E /* Model.xcdatamodel */,
+			);
+			currentVersion = ECF57E841DF0D5A60008467E /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = EC36D3361DE8F2DB006182F9 /* Project object */;
 }

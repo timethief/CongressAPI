@@ -1,0 +1,18 @@
+PODS:
+  - FontAwesome.swift (1.0.0)
+  - SlideMenuControllerSwift (3.0.0)
+  - SwiftSpinner (1.1.0)
+
+DEPENDENCIES:
+  - FontAwesome.swift
+  - SlideMenuControllerSwift
+  - SwiftSpinner
+
+SPEC CHECKSUMS:
+  FontAwesome.swift: 2d32a3d62195343c2004b7c9043294ed2948553a
+  SlideMenuControllerSwift: 9c0a84f9a3fba51681debd7be77617094562ebcc
+  SwiftSpinner: c03815614599b91eea46594bd52ba742849d0414
+
+PODFILE CHECKSUM: 2891673f6dfe771a53c0a237cdc95813344a8e03
+
+COCOAPODS: 1.1.1
